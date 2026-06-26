@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+.output/
+.nuxt/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Laravel
+/backend/vendor/
+/backend/node_modules/
+/backend/public/hot
+/backend/public/storage
+/backend/storage/*.key
+/backend/.env
+/backend/.env.backup
+/backend/.env.production
+/backend/.phpunit.result.cache
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/npm-debug.log
+/backend/yarn-error.log
+/backend/.buildpath
+/backend/.project
+/backend/.settings
+/backend/storage/framework/cache/
+/backend/storage/framework/sessions/
+/backend/storage/framework/testing/
+/backend/storage/framework/views/
+/backend/storage/logs/
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
